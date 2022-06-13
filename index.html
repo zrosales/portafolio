@@ -15,16 +15,30 @@
 </head>
 <body>
     <main class="container">
-        <nav>
-            <img src="assets/icons/icons8-menu-bold-48.png" alt="menu" class="menu">
-            <ul class="navbar--options">
+            <header class="main-header">
+                <nav id="nav" class="main-nav">
+                    <div class="nav-links">
+                        <a class="link-item" href="#about">About Me</a>
+                        <a class="link-item" href="#skills">Skills</a>
+                        <!-- <a class="link-item" href="#projects">Projects</a>-->
+                        <a class="link-item" href="#experience">Experience</a>
+                        <a class="link-item" href="#contact">Contact</a>
+                    </div>
+                </nav>
+                <button id="button-menu" class="button-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+            <!-- <ul class="navbar--options">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <!-- <li><a href="#projects">Projects</a></li> -->
+                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
         <section class="about" id="about">
                 <div class="about-name">
                     <p>Hello World, my name is : </p>
@@ -264,5 +278,6 @@
             </div>
         </footer>
     </div>
+<script src="js/menu.js"></script>
 </body>
 </html>
